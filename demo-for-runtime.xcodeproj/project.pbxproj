@@ -15,6 +15,7 @@
 		93376BFE1C991B5D00993C77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93376BFC1C991B5D00993C77 /* LaunchScreen.storyboard */; };
 		93376C091C991B5D00993C77 /* demo_for_runtimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93376C081C991B5D00993C77 /* demo_for_runtimeTests.m */; };
 		93376C141C991B5D00993C77 /* demo_for_runtimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93376C131C991B5D00993C77 /* demo_for_runtimeUITests.m */; };
+		93376C231C991C2900993C77 /* JGPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 93376C221C991C2900993C77 /* JGPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		93376C0F1C991B5D00993C77 /* demo-for-runtimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "demo-for-runtimeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93376C131C991B5D00993C77 /* demo_for_runtimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demo_for_runtimeUITests.m; sourceTree = "<group>"; };
 		93376C151C991B5D00993C77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93376C211C991C2900993C77 /* JGPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGPerson.h; sourceTree = "<group>"; };
+		93376C221C991C2900993C77 /* JGPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				93376BF21C991B5C00993C77 /* AppDelegate.m */,
 				93376BF41C991B5C00993C77 /* ViewController.h */,
 				93376BF51C991B5C00993C77 /* ViewController.m */,
+				93376C211C991C2900993C77 /* JGPerson.h */,
+				93376C221C991C2900993C77 /* JGPerson.m */,
 				93376BF71C991B5D00993C77 /* Main.storyboard */,
 				93376BFA1C991B5D00993C77 /* Assets.xcassets */,
 				93376BFC1C991B5D00993C77 /* LaunchScreen.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93376BF61C991B5C00993C77 /* ViewController.m in Sources */,
+				93376C231C991C2900993C77 /* JGPerson.m in Sources */,
 				93376BF31C991B5C00993C77 /* AppDelegate.m in Sources */,
 				93376BF01C991B5C00993C77 /* main.m in Sources */,
 			);
