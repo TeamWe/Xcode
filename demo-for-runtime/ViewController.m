@@ -32,7 +32,7 @@
     ((void (*)(id, SEL , NSString*))objc_msgSend)((id)p, @selector(setName:),@"33");
     
     NSLog(@"fgewqr");
-//    afjlasdjgl;kjagl;kagla
+//    afjlasdjgl;kjagl;kaglaadsaf
 //    objc_msgSend(p,@selector(setAge:),20);
 }
 
