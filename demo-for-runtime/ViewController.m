@@ -31,6 +31,7 @@
     
     ((void (*)(id, SEL , NSString*))objc_msgSend)((id)p, @selector(setName:),@"33");
     
+    NSLog(@"fgewqr");
 //    objc_msgSend(p,@selector(setAge:),20);
 }
 
